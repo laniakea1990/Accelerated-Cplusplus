@@ -1,4 +1,61 @@
 # depslib dependency file v1.0
-1411371682 source:d:\github\accelerated-cplusplus\accelerate\main.cpp
+1411374050 source:d:\github\accelerated-cplusplus\accelerate\main.cpp
 	<iostream>
+	<string>
+
+1031031742 source:d:\github\accelerated-cplusplus\win-net-source\chapter04\grade.cpp
+	<stdexcept>
+	<vector>
+	"grade.h"
+	"median.h"
+	"Student_info.h"
+
+1031031742 d:\github\accelerated-cplusplus\win-net-source\chapter04\grade.h
+	<vector>
+	"Student_info.h"
+
+1411645732 d:\github\accelerated-cplusplus\win-net-source\chapter04\student_info.h
+	<iostream>
+	<string>
+	<vector>
+
+1031031744 d:\github\accelerated-cplusplus\win-net-source\chapter04\median.h
+	<vector>
+
+1031031744 source:d:\github\accelerated-cplusplus\win-net-source\chapter04\median.cpp
+	<algorithm>
+	<stdexcept>
+	<vector>
+	"median.h"
+
+1411647348 source:d:\github\accelerated-cplusplus\win-net-source\chapter04\mine.cc
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<ios>
+	<iomanip>
+	<stdexcept>
+	"grade.h"
+	"Student_info.h"
+
+1031031742 source:d:\github\accelerated-cplusplus\win-net-source\chapter04\student_info.cpp
+	"Student_info.h"
+
+1031031748 source:d:\github\accelerated-cplusplus\win-net-source\chapter05\split.cpp
+	<cctype>
+	<string>
+	<vector>
+	"split.h"
+
+1031031748 d:\github\accelerated-cplusplus\win-net-source\chapter05\split.h
+	<vector>
+	<string>
+
+1031031748 source:d:\github\accelerated-cplusplus\win-net-source\chapter05\split_main.cpp
+	<cctype>
+	<iostream>
+	<string>
+	<vector>
+	"split.h"
 

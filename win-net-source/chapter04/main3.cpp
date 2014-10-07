@@ -13,7 +13,7 @@ using std::cout;                    using std::sort;
 using std::domain_error;            using std::streamsize;
 using std::endl;                    using std::string;
 using std::max;                     using std::vector;
-
+using namespace std;
 int main()
 {
 	vector<Student_info> students;

@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+//使用std进行限定而没有用using
 struct Student_info {
 	std::string name;
 	double midterm, final;

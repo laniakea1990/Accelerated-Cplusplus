@@ -53,7 +53,7 @@ double grade(double midterm, double final, const vector<double>& hw)
 // read homework grades from an input stream into a `vector<double>'
 istream& read_hw(istream& in, vector<double>& hw)
 {
-	if (in) {
+	//if (in) {
 		// get rid of previous contents
 		hw.clear();
 
@@ -64,7 +64,7 @@ istream& read_hw(istream& in, vector<double>& hw)
 
 		// clear the stream so that input will work for the next student
 		in.clear();
-	}
+	//}
 	return in;
 }
 
@@ -85,9 +85,7 @@ int main()
 	// ask for the homework grades
 	cout << "Enter all your homework grades, "
 	        "followed by end-of-file: ";
-
 	vector<double> homework;
-
 	// read the homework grades
 	read_hw(cin, homework);
 

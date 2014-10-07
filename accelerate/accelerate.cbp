@@ -32,7 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="../win-net-source/chapter05/split.cpp" />
+		<Unit filename="../win-net-source/chapter05/split.h" />
+		<Unit filename="../win-net-source/chapter05/split_main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
