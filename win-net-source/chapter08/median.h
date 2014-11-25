@@ -15,7 +15,7 @@ T median(vector<T> v)
 
 	vec_sz size = v.size();
 	if (size == 0)
-		throw domain_error("median of an empty vector");
+		throw domain_error("media n of an empty vector");
 
 	sort(v.begin(), v.end());
 
